@@ -1,0 +1,160 @@
+[
+    {
+        "id": "RB1",
+        "tipo": "sol",
+        "marca": "Rayban",
+        "modelo": "Aviator",
+        "colorMarco":"Dorado",
+        "colorLente":"Verde",
+        "precio": 28000,
+        "img1":".\\assets\\img\\rayban_1.jpg",
+        "img2":"",
+        "stock":6
+    },
+
+    {
+        "id": "RB2",
+        "tipo": "sol",
+        "marca": "Rayban",
+        "modelo": "Wayfarer",
+        "colorMarco":"Negro",
+        "colorLente":"verde",
+        "precio": 25000,
+        "img1":".\\assets\\img\\rayban_2.jpg",
+        "img2":"",
+        "stock":6
+
+    },
+
+    {
+        "id": "RB3",
+        "tipo": "sol",
+        "marca": "Rayban",
+        "modelo": "Clubmaster",
+        "colorMarco":"Negro",
+        "colorLente":"Verde",
+        "precio": 25000,
+        "img1":".\\assets\\img\\rayban_3.jpg",
+        "img2":"",
+        "stock":0
+
+    },
+
+    {
+        "id": "RB4",
+        "tipo": "sol",
+        "marca": "Rayban",
+        "modelo": "Round Metal",
+        "colorMarco":"Dorado",
+        "colorLente":"Rosa",
+        "precio": 30000,
+        "img1":".\\assets\\img\\rayban_4.jpg",
+        "img2":"",
+        "stock":5
+
+    },
+
+    {
+        "id": "VK1",
+        "tipo": "sol",
+        "marca": "Vulk",
+        "modelo": "Nicola",
+        "colorMarco":"Negro",
+        "colorLente":"Azul",
+        "precio": 13000,
+        "img1":".\\assets\\img\\vulk_11.jpg",
+        "img2":"",
+        "stock":8
+    },
+
+    {
+        "id": "VK2",
+        "tipo": "sol",
+        "marca": "Vulk",
+        "modelo": "Bennie",
+        "colorMarco":"Gris",
+        "colorLente":"Azul",
+        "precio": 15000,
+        "img1":".\\assets\\img\\vulk_22.jpg",
+        "img2":"",
+        "stock":7
+    },
+
+    {
+        "id": "VK3",
+        "tipo": "sol",
+        "marca": "Vulk",
+        "modelo": "Succ C3",
+        "colorMarco":"Plateado",
+        "colorLente":"Azul",
+        "precio": 16000,
+        "img1":".\\assets\\img\\vulk_3.jpg",
+        "img2":"",
+        "stock":4
+    },
+
+    {
+        "id": "VK4",
+        "tipo": "sol",
+        "marca": "Vulk",
+        "modelo": "Succ Marron 1",
+        "colorMarco":"Plateado",
+        "colorLente":"Marron",
+        "precio": 18000,
+        "img1":".\\assets\\img\\vulk_4.jpg",
+        "img2":"",
+        "stock":2
+    },
+
+    {
+        "id": "RY1",
+        "tipo": "sol",
+        "marca": "Rusty",
+        "modelo": "Primal",
+        "colorMarco":"Negro",
+        "colorLente":"Negro",
+        "precio": 13000,
+        "img1":".\\assets\\img\\rusty_11.jpg",
+        "img2":"",
+        "stock":6
+    },
+
+    {
+        "id": "RY2",
+        "tipo": "sol",
+        "marca": "Rusty",
+        "modelo": "California",
+        "colorMarco":"Negro",
+        "colorLente":"Gris",
+        "precio": 15000,
+        "img1":".\\assets\\img\\rusty_22.jpg",
+        "img2":"",
+        "stock":4
+    },
+
+    {
+        "id": "RY3",
+        "tipo": "sol",
+        "marca": "Rusty",
+        "modelo": "Vienet",
+        "colorMarco":"Dorado",
+        "colorLente":"Celeste",
+        "precio": 19000,
+        "img1":".\\assets\\img\\rusty_3.jpg",
+        "img2":"",
+        "stock":5
+    },
+
+    {
+        "id": "RY4",
+        "tipo": "sol",
+        "marca": "Rusty",
+        "modelo": "Xold SBLK",
+        "colorMarco":"Negro",
+        "colorLente":"Gris",
+        "precio": 10900,
+        "img1":".\\assets\\img\\rusty_4.jpg",
+        "img2":"",
+        "stock":10
+    }
+]

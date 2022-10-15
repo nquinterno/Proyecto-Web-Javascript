@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="..\style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <title>Q Lentes</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand">Q Lentes</a>
+              <button type="button" id="verCarrito" class="botonCarrito" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa fa-shopping-cart carrito-icon" aria-hidden="true"></i></button>
+            </div>
+          </nav>
+    </header>
+    <main class="bodyFinalizaCompra">
+      <div class=" row pago">
+        <div class="col-6 d-flex justify-content-center">
+          <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off">
+          <label class="btn btn-primary" for="option1">Efectivo</label>
+        </div>
+        <div class="col-6 d-flex justify-content-center">
+          <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
+          <label class="btn btn-primary" for="option2">tarjeta</label>
+        </div>
+      </div>
+      <div id="formCompra">
+    
+        <!-- <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">Efectivo</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+          <label class="form-check-label" for="inlineRadio2">Tarjeta</label>
+        </div> -->
+      </div>
+    </main>
+    <!-- <main>
+      <div class="productos">
+        <div class="herramientas">
+          <div class=" row barraCompra container-fluid d-flex justify-content-between">
+            <div class="col-4">
+              <ul class="nav  nav-pills bg-light d-flex justify-content-around">
+                <li class="nav-item">
+                  <a class="nav-link" id="mostrarCatalogo" aria-current="page" href="#">Mostrar Catalogo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="ocultarCatalogo" aria-current="page" href="#">Ocultar Catalogo</a>
+                </li>
+            </div>
+            <div class="col-4">
+              <form class="d-flex" role="search">
+                <input id="productoBuscado" class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button id="botonBuscar" class="btn btn-outline-success" type="submit">Buscar</button>
+              </form>
+            </div>
+          </div>
+
+        </div>
+        muestra el catalogo disponible -->
+        <!-- <div id="catalogo" class="container-fluid">
+          <div id="catalogoRow" class="row d-flex justify-content-around mt-3">
+
+          </div>
+        </div>
+        muestra las busquedas de productos realizadas por id, marca o modelo -->
+        <!-- <div id="muestraBusqueda" class="container-fluid">
+          <div id="busquedaRow" class="row d-flex justify-content-around mt-3">
+
+          </div>
+        </div>
+      </div> -->
+    </main>
+    <footer>
+        <div class="container-fluid footer">
+            <ul class="redes">
+                <li><a href="#" target="_blank"><i class="fa-brands fa-facebook social-face"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa-brands fa-instagram social-insta"></i></a></li>
+            </ul>
+            <div class="copy">
+                <p class="footer__copy__text">&copy; Q lentes - Todos los derechos reservados</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Carrito de Compras</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div id="productosModal">
+
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" id="vaciarCarrito" class="btn btn-danger" data-bs-dismiss="modal">Vaciar carrito</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" id="finalizarCompra" class="btn btn-primary"><a class="finalizaCompra" href=".\assets\pages\finalizaCompra.html">Finalizar compra</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/010087805b.js" crossorigin="anonymous"></script>
+    <script src="Lentes.js"></script>
+</body>
+</html>
