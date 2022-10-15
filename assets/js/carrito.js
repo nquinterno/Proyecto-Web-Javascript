@@ -59,7 +59,7 @@ function agregarCarritoc(prod){
             title:`No contamos con stock para el producto ${prod.marca} ${prod.modelo}`,
             icon:"error",
             duration:"3000",
-            confirmButtonText:`<a class="" href="index.html">Ok</a>`,
+            confirmButtonText:`<a class="botonStockNo">Ok</a>`,
             confirmButtonColor:"#0275d8",
         })
     }
