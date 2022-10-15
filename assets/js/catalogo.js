@@ -73,12 +73,8 @@ function buscar(producto){
                     <button type="button" id="${ant.id}" class="btn btn-primary comprar">Agregar al Carrito</button>
                 </div` 
             muestraBusqueda.appendChild(cardBusqueda)
-            // let buttoncomp = document.getElementById(`${ant.id}`);
-            // buttoncomp.addEventListener("click", ()=>{agregarCarritob(ant)});
         }
         let buttoncomp = document.getElementsByClassName("comprar");
-        // let buttoncomp = document.getElementById(`${ant.id}`);
-        // buton.addEventListener("click", ()=>{agregarCarritob(buton)});
         for (let buton of buttoncomp){
             buton.addEventListener("click", ()=>{agregarCarritob(buton)});
         }
@@ -113,8 +109,6 @@ function mostrarBusqueda(){
                 <button type="button" id="${ant.id}" class="btn btn-primary comprar">Agregar al Carrito</button>
             </div` 
         muestraBusqueda.appendChild(cardBusqueda)
-        // let buttoncomp = document.getElementById(`${ant.id}`);
-        // buttoncomp.addEventListener("click", ()=>{agregarCarritob(ant)});
     }
     let buttoncomp = document.getElementsByClassName("comprar");
     for (let buton of buttoncomp){
