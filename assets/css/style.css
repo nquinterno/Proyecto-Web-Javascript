@@ -16,6 +16,10 @@ body {
 
 }
 
+.webTitle, .webTitle:hover{
+  text-decoration:none;
+}
+
 /* Marca */
 
 .carousel-title{
